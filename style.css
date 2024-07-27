@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6;
+    color: #2c3e50; 
+    background: #ecf0f1;
+    font-size: 18px;
+}
+
+/* header */
+header {
+    background: #2c3e50; 
+    color: #ecf0f1; 
+    padding: 1.5rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2rem; 
+}
+
+#lista1{
+    list-style: none;
+    display: flex;
+}
+
+.elementosLista1{
+    margin: 0 1.5rem; 
+}
+
+.redirecionamento{
+    color: #ecf0f1; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem; 
+    transition: color 0.3s ease;
+}
+
+.elementosLista1 a:hover {
+    color: #bdc3c7; /*é para deixar a mãozinha quando passa por cima*/
+}
+
+/* Seções */
+section {
+    padding: 2.5rem 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50; 
+    font-size: 2.5rem;
+    border-bottom: 2px solid #bdc3c7; 
+    padding-bottom: 0.5rem;
+}
+
+/* Sobre nós */
+.sobreNosTexto {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#Imagem1{
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#textoSobreNos {
+    font-size: 1.2rem;
+    color: #2c3e50; /* Texto escuro para melhor legibilidade */
+}
+
+/* Cards */
+.cartoes{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.cartao {
+    background: #ffffff; 
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fas {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.tituloCartoes {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    color: #2c3e50; 
+}
+
+.cartao:hover {
+    transform: scale(1.05);
+}
+
+/* Perfil do fundador */
+.FotoRangel{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#fotoRangelPerfil{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #2c3e50; 
+}
+
+#TextoRangel{
+    font-size: 1.2rem;
+    color: #2c3e50; 
+}
+
+/* Serviços */
+.servicos3 {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.servioElemento {
+    background: #ffffff; 
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1;
+    min-width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fas{
+    font-size: 3rem;
+    color: #2c3e50; 
+    margin-bottom: 1rem;
+}
+
+.titulosServicos{
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    color: #2c3e50; 
+}
+
+.servioElemento:hover {
+    transform: scale(1.05);
+}
+
+
+/* colaboradores */
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.colaboradores article {
+    background: #ffffff; 
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.colaboradoresNome{
+    font-size: 1.5rem;
+    color: #2c3e50; 
+}
+
+
+/* Footer */
+footer {
+    background: #2c3e50; 
+    color: #ecf0f1; 
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.footerClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerInformaceos{
+    flex: 1;
+    max-width: 400px;
+}
+
+footerInformaceos h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #ecf0f1; 
+}
+
+.redesSociais {
+    flex: 1;
+    text-align: right;
+}
+
+.redesSociaisElementos {
+    color: #ecf0f1; /* Cor clara para os ícones sociais */
+    font-size: 1.5rem; /* Ícones sociais maiores */
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.redesSociais a:hover {
+    color: #bdc3c7; 
+}
+
+.footerFinal{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    border-top: 1px solid #bdc3c7; 
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* deixar o site responsivo */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Ajustes para telas menores, como tablets e smartphones */
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cards, .services {
+        flex-direction: column;
+    }
+
+    .card, .service {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .founder-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder-profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas muito pequenas, como smartphones */
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li {
+        margin: 0.25rem 0;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+
+    .card i, .service i {
+        font-size: 2.5rem;
+    }
+
+    .card h3, .service h3 {
+        font-size: 1.25rem;
+    }
+
+    .founder-profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .footer-info h3 {
+        font-size: 1.25rem;
+    }
+
+    .footer-social a {
+        font-size: 1.25rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.9rem;
+    }
+}
